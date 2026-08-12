@@ -9,7 +9,7 @@ if %i% GTR 3 goto ato
 cscript //nologo ospp.vbs /sethst:%KMS% >nul
 :ato
 echo =====================================================================================&echo.&echo.&cscript //nologo ospp.vbs /act | find /i "successful" && (echo.&echo =====================================================================================&echo.&echo #Please Support me but can contact me.Follow Me.Thankz for using HN_System...!&echo.&echo =====================================================================================&choice /n /c YN /m "Would you like to Contact Me [Y,N]?" & if errorlevel 2 exit) || (echo The connection to my KMS server failed! Trying to connect to another one... & echo Please wait... & echo. & echo. & set /a i+=1 & goto skms)
-explorer "https://wa.me/0717749974?text=Hii%20Smart2HN!%20%3C%3E.%20"&goto halt
+explorer "https://wa.me/message/3QYQJKPBJXYRL1"&goto halt
 :notsupported
 echo =====================================================================================&echo.&echo Sorry, your version is not supported.&echo.&goto halt
 :busy
